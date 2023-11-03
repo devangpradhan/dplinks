@@ -39,7 +39,7 @@
   ------------------------------------------------------------------------------------- */
   const type_text = function () {
     var typed = new Typed(".auto-type", {
-      strings: ["UX/UI Designer", "Developer", "Freelancer"],
+      strings: ["UX/UI Designer", " Front End Developer", "Animator"],
       typeSpeed: 70,
       backSpeed: 70,
       backDelay: 900,
@@ -369,3 +369,25 @@
     wedo_onload();
   });
 })(jQuery);
+
+  /* Logo Animation ------------------------------------------------------------------------------------- */
+  $(document).on(
+    {
+      mouseenter: function() {
+        var gifImage = $(this).find("img"),
+          gifImageSrc = gifImage.data("gif-image");
+        gifImage.attr("src", gifImageSrc);
+      },
+      mouseleave: function() {
+        var gifImage = $(this).find("img"),
+          coverSrc = gifImage.data("image");
+        gifImage.attr("src", coverSrc);
+      }
+    },
+    "[data-gif-trigger]"
+  );
+  
+  /* random color Animation ------------------------------------------------------------------------------------- */
+  // $(document).ready(function() {
+  //   $("body").css("background-color", "hsla(" + Math.floor(Math.random() * (360)) + ", 75%, 58%, 1)");
+  // });

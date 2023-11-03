@@ -37,7 +37,7 @@
 }
 
 .wrapper {
-    /* border: 1px solid var(--primary-bg-light); */
+    border: 1px solid var(--primary-bg-light);
     border: 1px solid;
     border-radius: 20px;
     padding: 35px 50px;
@@ -90,7 +90,7 @@
     width: 16px;
     height: 16px;
     border-radius: 50px;
-    background-color: var(--primary-bg-light);
+    /* background-color: var(--primary-bg-light); */
     top: 0;
     left: 0;
     right: 0;
