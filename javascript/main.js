@@ -391,3 +391,7 @@
   // $(document).ready(function() {
   //   $("---").css("background-color", "hsla(" + Math.floor(Math.random() * (360)) + ", 75%, 58%, 1)");
   // });
+
+
+// cursor scroll_effect
+
