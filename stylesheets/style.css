@@ -40,6 +40,11 @@
     --color-logo: rgba(255, 255, 255, 0.5);
     --color-overlay: #1A191E;
 }
+
+.color-change-element {
+    background-color: var(--primary-bg-light);
+  }
+
 /* reset
 ---------------------------------------------------------------- */
 html {

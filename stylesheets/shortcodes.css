@@ -1924,7 +1924,7 @@ form .textarea label {
 }
 
 .home-box .wrap-title {
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 
 .home-box .box-title .title {
@@ -2645,9 +2645,9 @@ form .textarea label {
 }
 
 .home-box .wrap-title .title {
-    line-height: 82px;
+    /* line-height: 82px;
     margin-top: -3px;
-    padding-right: 50px;
+    padding-right: 50px; */
 }
 
 .home-box .wrap-title .note span ,
@@ -2688,7 +2688,7 @@ form .textarea label {
 }
 
 .top-content{
-    margin-bottom: 41px;
+    /* margin-bottom: 41px; */
 }
 
 #skill .top-content { 
@@ -2712,7 +2712,7 @@ form .textarea label {
     padding-right: 100px;
 }
 .home-box .top-content{
-    margin-bottom: 58px;
+    /* margin-bottom: 58px; */
 }
 
 .wrap-title {
