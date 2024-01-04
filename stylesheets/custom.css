@@ -7,7 +7,7 @@
   display: grid;
   gap: clamp(0.75rem, 1.5vw, 2rem);
   padding: clamp(0.75rem, 1.5vw, 2rem);
-  background: #fff;
+  /* background: #fff; */
   grid-column: 1;
 }
 
@@ -55,7 +55,7 @@
   text-decoration: underline;
   text-underline-offset: 0.125rem;
   text-decoration-thickness: 0.125rem;
-  color: blue;
+  color: rgb(255, 255, 255);
 }
 
 /*  --------------------- gradient-border -------------------------- */
@@ -65,15 +65,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 300px;
-  height: 200px;
-  font-family: Lato, sans-serif;
-  font-size: 2.5rem;
   text-transform: uppercase;
   color: white;
   background: #222;
   border-radius: var(--border-width);
 }
+
 .gradient-border::after {
   position: absolute;
   content: "";
@@ -95,11 +92,74 @@
   }
 }
 
+/*  --------------------- animated font -------------------------- */
 
-/*  --------------------- Change Color -------------------------- */
+.hoge{
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  padding: 0px;
+  margin: 0;
+  font-size: 160px;
+  animation: gradient 1.5s infinite alternate;
+  font-weight: 375;
+  font-variation-settings: 'wght' 700;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  
+}
 
-.color-change-element {
-  background-color: #3498db; /* Initial background color */
+.hoge1{
+  animation-delay: 0;
+  color: #f33;
+  z-index: 0;
+}
+.hoge2{
+  animation-delay: 0.1s;
+  color: #ff3;
+  z-index: 1;  
+}
+.hoge3{
+  animation-delay: 0.20s;
+  color: #3ff;
+  z-index: 2;  
+}
+.hoge4{
+  animation-delay: 0.30s;
+  color: #333;
+  z-index: 3;  
+  -webkit-text-stroke-width: 1px;
 }
 
 
+@keyframes gradient {
+	0% {
+    font-variation-settings: 'wght' 100;
+	}
+	40% {
+    font-variation-settings: 'wght' 900;    
+    top: 30px;
+	} 
+	45% {
+    font-variation-settings: 'wght' 900;    
+    top: 30px;    
+	} 
+  
+	85% {
+    font-variation-settings: 'wght' 100;    
+    top: 60px;    
+	}
+	100% {
+    font-variation-settings: 'wght' 100;    
+    top: 60px;
+    
+	}
+  
+}
+
+.container{
+  position: absolute;
+  width: 100%;
+  height: 100%:
+}

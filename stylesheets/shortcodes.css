@@ -22,9 +22,9 @@
   * home page
 */
 @import url(../fonts/icons-font.css);
+@import url(../fonts/all.min.css);
 @import url(./animate.css);
-
-
+/* Fonts */
 
 .tf-container {
     position: relative;
@@ -273,8 +273,11 @@
 }
 
 .wrap-title .title {
-    font-size: 62px;
+    font-variation-settings: var(--mono), var(--casl), var(--wght), var(--slnt), var(--CRSV);
+    font-family:'Recursive';
+    font-size: 40px;
     line-height: 74.4px;
+    font-weight: 900;
 }
 
 .wrap-title .title span {
