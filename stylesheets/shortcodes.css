@@ -276,7 +276,7 @@
     font-variation-settings: var(--mono), var(--casl), var(--wght), var(--slnt), var(--CRSV);
     font-family:'Recursive';
     font-size: 40px;
-    line-height: 74.4px;
+    line-height: 50px;
     font-weight: 900;
 }
 
@@ -1249,7 +1249,7 @@ form .textarea label {
 .box-pricing.cart::after {
     content: "Most Paopular";
     position: absolute;
-    font-family: "Inter", sans-serif;
+    font-family: "Nunito Sans", sans-serif;
     width: 172px;
     background-color: var(--primary-bg-light);
     padding: 4px 26px;
@@ -1564,7 +1564,7 @@ form .textarea label {
     top: 50%;
     transform: translateY(-50%);
     right: -38px;
-    font-family: 'Inter';
+    font-family: 'Nunito Sans';
     font-weight: 400;
     font-size: 14px;
     color: var(--color-white);
@@ -2640,7 +2640,7 @@ form .textarea label {
 /* Add */
 .home-box .wrap-title .note {
     all: unset;
-    font-family: 'Inter';
+    font-family: 'Nunito Sans';
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;

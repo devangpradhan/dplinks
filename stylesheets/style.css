@@ -289,7 +289,7 @@ label {
 }
 
 body {
-    font: 14px/25px 'Inter', sans-serif;
+    font: 14px/25px 'Nunito Sans', sans-serif;
     font-weight: 400;
     background-color: #fff;
     color: var(--primary-color);
@@ -419,7 +419,7 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"] {
     font-size: 12px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     font-weight: 700;
     background-color: transparent;
     text-transform: uppercase;
