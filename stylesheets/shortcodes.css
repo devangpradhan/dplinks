@@ -277,7 +277,7 @@
     font-family:'Recursive';
     font-size: 40px;
     line-height: 50px;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .wrap-title .title span {
@@ -2243,6 +2243,7 @@ form .textarea label {
 ----------------------------------------------------------- */
 .is-dark .sticky-sidebar {
     background: #1E1E22;
+    min-height: 100%;
 }
 
 .is-dark .wrap-title .note {
