@@ -58,4 +58,56 @@
   color: rgb(255, 255, 255);
 }
 
-/*  --------------------- gradient-border -------------------------- */
+/*  --------------------- Scroll Bar -------------------------- */
+
+/* 
+.ssb_down {
+  background-color: #33ccaa;
+  bottom:0;
+  cursor:pointer;
+  position:absolute;
+  right:0;
+  border-radius: 10px;
+}
+
+.ssb_sb {
+  background-color: #22aabb;
+  cursor:pointer;
+  position:absolute;
+  right:0;
+  border-radius: 10px;
+}
+
+.ssb_sb_down {
+  background-color: #1199aa;
+}
+
+.ssb_sb_over {
+  background-color: #33bbcc;
+}
+
+.ssb_st {
+  background-color: #dedede;
+  cursor:pointer;
+  height:100%;
+  position:absolute;
+  right:0;
+  top:0;
+  border-radius: 10px;
+}
+
+.ssb_up {
+  background-color: #33ccaa;
+  cursor:pointer;
+  position:absolute;
+  right:0;
+  top:0;
+  border-radius: 10px;
+}
+
+.parent {
+  font-family:verdana;
+  height:100%;
+  padding:10px;
+  position:relative;
+} */

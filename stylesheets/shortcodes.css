@@ -41,7 +41,7 @@
     border: 1px solid;
     border-radius: 20px;
     padding: 35px 50px;
-    padding-right: 52px;
+    padding-right: 50px;
     padding-top: 49px;
     overflow: hidden;
     margin-top: 8px;
@@ -2727,7 +2727,7 @@ form .textarea label {
 
 .wedo-section {
     padding: 0;
-    margin-right: -8px;
+    margin-right: 5px;
 }
 
 .resume-wrap .wrap-title {
